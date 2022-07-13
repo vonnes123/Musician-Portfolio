@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/eca2c4fa11.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/Logo_part.svg">
+    <title>DEHAZE Musical portfolio</title>
+</head>
+<body>
+    <div class="desktop-version">
+      <header>
+          <nav>
+              <a href="#musicsection" class="nav-button-style text-underlined">MUSIC</a>
+              <a href="#section1" class="nav-button-style text-underlined">CONTACT</a>
+              <img class="logo" src="./images/logorun1.png" alt="logo">
+              <a href="#singerandproducer" class="nav-button-style text-underlined">SINGER</a>
+              <a href="#singerandproducer" class="nav-button-style text-underlined">PRODUCER</a>
+          </nav>
+      </header>
+      <div class="first-parallax">
+          <h1 class="hero-text">DEHAZE</h1>
+          <div class="hero-video-wrapper">
+              <input type="checkbox" class="hero-video-input">
+              <div class="hero-video">
+                <video src="./images/Popsport - Live Sessions 2021 - DEHAZE.mp4" loop muted autoplay playsinline></video>
+              </div>
+              <div class="hero-video-text">
+                <span data-text="Watch a preview"></span>
+              </div>
+            </div>
+      </div>
+      <section class="music-section" id="musicsection">
+<h1 style="color: white;font-size:4em;text-align: center;font-weight: 700; padding-top: 50px;">MUSIC</h1>
+      <div id="Songs" style="
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+">
+          <div class="img">
+              <img src="./images/avatars-kXCeBqtNe8AsVh2y-hMzYYw-t500x500.jpg" style="height: 500px; width: 500px; padding: 5px; right: -544px;">
+              <button type="button" onclick="play()"><span></span></button>
+              <audio id="audio" src="./audio/Take It All In Preview.wav"></audio>
+              <hr>
+              <p>Take it all in</p>
+            </div>
+  <p style="margin: 10px;"></p>
+            <div class="img">
+              <img src="./images/AlbumCD.jpeg" style="height: 500px; width: 500px; padding: 5px;">
+              <button type="button" onclick="play2()"><span></span></button>
+              <audio id="audio2" src="./audio/Waves Of Joy Preview.wav"></audio>
+              <hr>
+              <p>Waves of joy</p>
+            </div>
+      </div>
+        
+
+
+      </section>
+      <!--
+      <div class="second-parallax">
+          <video class="video-size" controls>
+              <source src="./images/Popsport - Live Sessions 2021 - DEHAZE.mp4" type="video/mp4">
+          </video>
+      </div>
+      -->
+      <div class="third-parallax" id="singerandproducer">
+          <div class="container3">
+              <div class="card" id="popUPSinger">
+                <h3>Singer</h3>
+                <div class="pic"></div>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <button>
+                </button>
+              </div>
+                <div class="card card2" id="popUPProducer">
+                <h3>Producer</h3>
+                <div class="pic"></div>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <button>
+                </button>
+              </div>
+              </div>
+      </div>
+      <div id="myModal1" class="modal-box">
+          <div class="modal-box-content">
+      
+            <div class="modal-box-body">
+              <span class="close">&times;</span>
+              <div class="modal-boxText">
+                <h1>Singer</h1>
+                <p> DEHAZE is an up and coming singer for Tilburg, The Netherlands. He describes his style of music as moody/hazy.
+                  His songs entrance the listener with certain captivating vibe that lives a long lasting impression. </p>
+              </div>
+              <div class="modal-boxPicture"><img src="./images/avatars-kXCeBqtNe8AsVh2y-hMzYYw-t500x500.jpg" alt="" srcset=""></div>
+            </div>
+            <div class="modal-footer">
+              <h3></h3>
+            </div>
+          </div>
+      
+      </div>
+            <!-- Modal content for Singer Popup-->
+      
+      
+          <!-- The Modal for Producer Popup -->
+      <div id="myModal2" class="modal-box">
+      
+          <div class="modal-box-content">
+            <div class="modal-box-body">
+              <span class="close2">&times;</span>
+              <div class="modal-boxText">
+                <h1>Producer</h1>
+                <p>Future productions to be announced soon.</p>
+              </div>
+              <div class="modal-boxPicture"><img src="./images/popUP2.PNG" alt="" srcset=""></div>
+            </div>
+          </div>
+      </div>
+      <div class="forth-parallax">
+        <div class="contact-container">
+          <div class="form-container">
+              <form name="contact-form" action="https://formsubmit.co/your@email.com" method="POST">
+                  <div class="info">
+                      <input type="text" name="FullName" placeholder="Full Name">
+                      <div class="error hide">Write your Full Name!</div>
+                      <input type="email" name="email" placeholder="E-mail">
+                      <div class="error hide">Email is invalid!</div>
+                      <textarea type="message" id="msg" placeholder="Write your message!"></textarea>
+                      <div class="error hide">Write your message!</div>
+                  </div>
+                  <button type="submit">Contact me</button>
+              </form>
+          </div>
+          <div class="social-container">
+              <div id="socials">
+                  <div class="info">
+                      <br><br>
+                      <p style="font-size: 30px;">Contact</p> <br>
+                      <p style="font-size: 20px;">something@gmail.com</p><br><br>
+                      <p style="font-size: 30px;">Based in</p><br>
+                      <p style="font-size: 20px;">Eindhoven, Netherlands</p>
+                      <br><br><br>
+                      <h3>
+                          <a href="https://www.instagram.com/dehaze.music/" target="_blank"><img src="./images/instagram.png"
+                                  style="width: 50px;height: 50px; margin-left: 10px;"></a>
+                          <a href="#" target="_blank"><img
+                                  src="./images/tik-tok.png" style="width: 50px;height: 50px; margin-left: 10px"></a>
+                          <a href="https://soundcloud.com/dehazeofficial" target="_blank"><img src="./images/spotify.png"
+                                  style="width: 50px;height: 50px; margin-left: 10px;"></a>
+                      </h3>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <footer></footer>
+    </div>
+    <div class="mobile-version">
+      <nav>
+        <img class="logo" src="./images/logorun1.png" alt="logo">
+        <img class="logo" onclick="mobileMenu()" src="./images/menu.png" alt="menu" id="burger-icon">
+        <img class="logo mobile-close" onclick="mobileClose()" src="./images/close.png" alt="menu" id="close-icon">
+      </nav>
+        <div class="burger-menu" id="burger-menu">
+              <div><a href="#mobile-music-section" class="nav-button-style text-underlined" onclick="mobileClose()" >MUSIC</a></div>
+              <div><a href="#mobile-contact-me" class="nav-button-style text-underlined" onclick="mobileClose()">CONTACT</a></div>
+              <div><a href="#mobile-about-me" class="nav-button-style text-underlined" onclick="mobileClose()">SINGER</a></div>
+              <div><a href="#mobile-about-me" class="nav-button-style text-underlined" onclick="mobileClose()">PRODUCER</a></div>
+        </div>
+      <div class="mobile-hero">
+        <h1 class="mobile-hero-text">DEHAZE</h1>
+      </div>
+    <section class="mobile-music-section" id="mobile-music-section">
+      <img class="mobile-music-preview" src="./images/avatars-kXCeBqtNe8AsVh2y-hMzYYw-t500x500.jpg" alt="musci preview">
+      <h2>Take it all in <span class="underline" onclick="play()">listen to the preview</span></h2>
+      <img class="mobile-music-preview" src="./images/album1.jpg" alt="musci preview">
+      <h2>Waves of joy <span class="underline" onclick="play2()">listen to the preview</span></h2>
+    </section>
+    <div class="mobile-video-section">
+      <video class="video-size" controls>
+        <source src="./images/Popsport - Live Sessions 2021 - DEHAZE.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="mobile-about-me" id="mobile-about-me">
+      <div class="mobile-about-me-card singer" id="popUPSinger2" ><h2>Singer</h2></div>
+      <div class="mobile-about-me-card producer" id="popUPProducer2"><h2>Producer</h2></div>
+
+      <div id="myModal3" class="modal-box">
+          <div class="modal-box-content">
+      
+            <div class="modal-box-body">
+              <span class="close3">&times;</span>
+              <div class="modal-boxText">
+                <h1>Singer</h1>
+                <p> DEHAZE is an up and coming singer for Tilburg, The Netherlands. He describes his style of music as moody/hazy.
+                  His songs entrance the listener with certain captivating vibe that lives a long lasting impression. </p>
+              </div>
+              <div class="modal-boxPicture-mobile"><img src="./images/avatars-kXCeBqtNe8AsVh2y-hMzYYw-t500x500.jpg" alt="" srcset=""></div>
+            </div>
+          </div>
+      
+      </div>
+            <!-- Modal content for Singer Popup-->
+      
+      
+          <!-- The Modal for Producer Popup -->
+      <div id="myModal4" class="modal-box">
+          <div class="modal-box-content">
+      
+            <div class="modal-box-body">
+              <span class="close4">&times;</span>
+              <div class="modal-boxText">
+                <h1>Singer</h1>
+                <p> DEHAZE is an up and coming singer for Tilburg, The Netherlands. He describes his style of music as moody/hazy.
+                  His songs entrance the listener with certain captivating vibe that lives a long lasting impression. </p>
+              </div>
+              <div class="modal-boxPicture-mobile"><img src="./images/popUP3.PNG" alt="" srcset=""></div>
+            </div>
+          </div>
+      
+      </div>
+
+
+
+    </div>
+    <div class="mobile-contact-me" id="mobile-contact-me">
+      <h4 class="mobile-contact-text-heading">Contact Me</h4>
+      <div class="mobile-contact-form">
+        <h5>Full name</h5>
+        <input type="text" name="FullName" placeholder="Full Name">
+        <h5>Email</h5>
+        <input type="email" name="email" placeholder="E-mail">
+        <h5>Message</h5>
+        <textarea type="message" id="mobile-msg" placeholder="Write your message!"></textarea>
+      </div>
+      <div class="flex-center"><button class="mobile-contact-button" type="submit">Contact me</button></div>
+    </div>
+    <footer>
+      <a href="#" target="_blank"><img class="footer-icon" src="./images/tik-tok.png" alt="tik-tok-icon"></a>
+      <a href="https://www.instagram.com/dehaze.music/" target="_blank"><img class="footer-icon" src="./images/instagram.png" alt="instagram icon"></a>
+      <a href="#" target="_blank"><img class="footer-icon" src="./images/spotify.png" alt="spotify icon"></a>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>   
+</html>
